@@ -42,6 +42,42 @@ const mockAnnouncements: Announcement[] = [
     floorArea: '전용 84㎡',
     leasePeriod: '2년',
     buildingType: '오피스텔'
+  },
+  {
+    id: '3',
+    title: '2024년 경기도 행복주택 3차 모집공고',
+    institution: '경기도',
+    announcementDate: '2024-04-05',
+    applicationStartDate: '2024-04-20',
+    applicationEndDate: '2024-05-05',
+    status: '모집예정',
+    location: '경기도 성남시',
+    totalHouseholds: 200,
+    pdfUrl: '/공고문_17870_20250331_224621.pdf',
+    targetGroup: '청년, 신혼부부',
+    eligibility: '무주택자, 소득기준 충족자',
+    schedule: '2024-04-20 ~ 2024-05-05',
+    floorArea: '전용 74㎡',
+    leasePeriod: '2년',
+    buildingType: '아파트'
+  },
+  {
+    id: '4',
+    title: '2024년 경기도 행복주택 4차 모집공고',
+    institution: '경기도',
+    announcementDate: '2024-04-10',
+    applicationStartDate: '2024-04-25',
+    applicationEndDate: '2024-05-10',
+    status: '모집예정',
+    location: '경기도 안양시',
+    totalHouseholds: 180,
+    pdfUrl: '/{공고문(PDF)}_(최종)대전광역시시유성구10년임대 분납임대주택예비입주자모집.pdf',
+    targetGroup: '청년, 신혼부부, 다자녀가구',
+    eligibility: '무주택자, 소득기준 충족자',
+    schedule: '2024-04-25 ~ 2024-05-10',
+    floorArea: '전용 69㎡',
+    leasePeriod: '2년',
+    buildingType: '그 외'
   }
 ];
 
